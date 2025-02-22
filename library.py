@@ -37,6 +37,8 @@ cursor.execute("""
 """)
 
 def registor():
-    name = input("")
+    name = input("Введите имя: ")
+    age = int(input("Введите возрёаст: "))
+    major = input("Ваша профессия")
 
 
